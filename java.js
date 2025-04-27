@@ -67,18 +67,7 @@ function playGame() {
         console.log(`Your score: ${humanScore}`);
         console.log(`Opponent score: ${computerScore}`);
 
-    }
-    for (let i = 0; i < 5; i++) {
-        playRound();
-    }
-    console.log("Game over!");
-    console.log(
-        humanScore > computerScore
-        ? "You win!"
-        : humanScore < computerScore
-        ? "You lose."
-        : "It's a tie"
-    );
+    };
 }
 
 playGame();
