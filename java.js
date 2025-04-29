@@ -17,7 +17,7 @@ const btnPaper = document.querySelector("#btnPaper");
 const btnScissors = document.querySelector("#btnScissors");
 
 const container = document.querySelector("#container");
-container.setAttribute("style", "height: 400px; width: 400px; background: green; margin: 20px; padding: 20px;");
+container.setAttribute("style", "height: 300px; width: 400px; background: green; margin: 20px; padding: 20px; text-align: center;");
 
 
 const oppChoice = document.querySelector("#oppChoice");
